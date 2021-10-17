@@ -8,12 +8,22 @@ describe('fizzbuzz',()=>{
     })
     test('should print fizz if it receive 3',()=>{
         const expected='fizz';
-        const result=fizzbuzz('fizz')
+        const result=fizzbuzz(3)
         expect(expected).toBe(result)
     })
     test('should print fizz if it receive a multiple of 3',()=>{
         const expected='fizz';
-        const result=fizzbuzz('6')
+        const result=fizzbuzz(6)
+        expect(expected).toBe(result)
+    })
+    test('should buzz fizz if it receive 5',()=>{
+        const expected='buzz';
+        const result=fizzbuzz(5)
+        expect(expected).toBe(result)
+    })
+    test('should print fizz if it receive a multiple of 3',()=>{
+        const expected='fizz';
+        const result=fizzbuzz(6)
         expect(expected).toBe(result)
     })
 })
