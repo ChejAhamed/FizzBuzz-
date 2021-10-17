@@ -1,16 +1,21 @@
 function fizzbuzz(num){
+    const divisible =(divisor, num)=>num % divisor===0;
+    if(typeof num !== 'number'){
+        return 'Error:the argument must be a number';
+        
+    }
     if (num  === 0){
         return num;
     }
 
-    if(num % 3 === 0 && num % 5 ===0){
+    if(divisible(3, num) && divisible(5, num)){
         return 'fizzbuzz'
     }
    
-    if (num % 3 ===0){
+    if (divisible(3, num)){
         return 'fizz';
     }
-    if(num % 5 ===0){
+    if(divisible(5, num)){
         return 'buzz'
     }
     return num;
