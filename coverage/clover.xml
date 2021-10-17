@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1634477876527" clover="3.2.0">
-  <project timestamp="1634477876527" name="All files">
-    <metrics statements="10" coveredstatements="10" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1" elements="16" coveredelements="16" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
+<coverage generated="1634478063000" clover="3.2.0">
+  <project timestamp="1634478063000" name="All files">
+    <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1" elements="23" coveredelements="23" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
     <file name="fizzbuzz.js" path="C:\Users\s6006\Desktop\Git Projects\FizzBuzz\FizzBuzz-\fizzbuzz.js">
-      <metrics statements="10" coveredstatements="10" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
-      <line num="1" count="5" type="cond" truecount="1" falsecount="0"/>
-      <line num="2" count="5" type="cond" truecount="1" falsecount="0"/>
-      <line num="3" count="2" type="stmt"/>
-      <line num="4" count="2" type="stmt"/>
-      <line num="5" count="5" type="cond" truecount="2" falsecount="0"/>
-      <line num="6" count="2" type="stmt"/>
+      <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <line num="1" count="6" type="cond" truecount="1" falsecount="0"/>
+      <line num="2" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="5" type="cond" truecount="1" falsecount="0"/>
+      <line num="6" count="6" type="cond" truecount="1" falsecount="0"/>
       <line num="7" count="2" type="stmt"/>
-      <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="10" count="1" type="stmt"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="9" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="12" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

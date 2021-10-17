@@ -26,4 +26,10 @@ describe('fizzbuzz',()=>{
         const result=fizzbuzz(10)
         expect(expected).toBe(result)
     })
+    test('should print fizzbuzz if it receive a multiple of 3 and 5',()=>{
+        const expected='fizzbuzz';
+        const result=fizzbuzz(15)
+        expect(expected).toBe(result)
+    })
+
 })
